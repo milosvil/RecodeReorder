@@ -1,0 +1,4 @@
+Name: Recode & Reorder
+Description: Addin for interactively renaming, collapsing and reordering factor levels.
+Binding: recode_reorder
+Interactive: true

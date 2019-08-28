@@ -1,0 +1,20 @@
+Package: RecodeReorder
+Title: RStudio Addin for Renaming, Collapsing and Reordering Factor Levels
+Version: 0.1.0
+Authors@R: c(person("Milos", "Vilotic", email = "milos.vilotic@gmail.com", role = c("aut", "cre")))
+Description: Addin for interactively renaming, collapsing and reordering factor levels. Addin automaticaly generates R code that can be inserted in an active R script.
+License: MIT + file LICENSE
+URL: https://github.com/milosvil/RecodeReorder
+BugReports: https://github.com/milosvil/RecodeReorder/issues
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    shiny,
+    miniUI,
+    shinyjqui,
+    forcats,
+    dplyr,
+    stringr,
+    purrr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1

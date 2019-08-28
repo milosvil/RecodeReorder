@@ -1,0 +1,41 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# RecodeReorder
+
+`RecodeReorder` is RStudio addin for interactively renaming, collapsing and reordering factor levels. Addin automaticaly generates R code that can be inserted in an active R script. Addin uses data.frame objects from Global Env.
+
+## Installation
+
+You can install addin from GitHub with:
+```{r eval = FALSE}
+# install.packages("remotes")
+remotes::install_github("milosvil/RecodeReorder")
+```
+
+## Step by step guide
+
+__Step 1:__ Load data.frame objects.
+
+__Step 2:__ Run addin from _Addins_ dropdown menu.
+
+__Step 3:__ Select data and variable.
+
+__Step 4:__ Rename and reorder levels. For reordering drag and drop text inputs.
+
+__Step 5:__ Insert generated R code by clicking the INSERT CODE button.
+
+
+![Recode & Reorder](inst/example/recode.gif)
+
